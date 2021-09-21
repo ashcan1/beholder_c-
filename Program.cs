@@ -7,7 +7,7 @@ public class Exercise66
         Console.Write("Enter the number of rows:\t");
         int num = int.Parse(Console.ReadLine());
 
-        int t, m, b, s ;
+        int t, m, b, s, e;
         for (t = 1; t <= num; ++t)
         {
             Console.Write("* ");
@@ -17,17 +17,31 @@ public class Exercise66
 
 
         for (m = 1; m <= num / 2; ++m)
-
         {
-            for (s = 1; s <= num; s++)
+            if (num % 2 == 0)
             {
-                Console.Write(" ");
+                Console.WriteLine(" ok ");
+
+
             }
 
-            for (s = 1; s <= m; ++s)
             {
-                Console.Write("*");
+                for (s = 1; s <= num; s++)
+                {
+                    Console.Write(" ");
+                }
+
+                for (s = 1; s <= m; ++s)
+                {
+                    Console.Write("*");
+                }
             }
+
+
+
+
+
+
 
             Console.WriteLine();
         }
