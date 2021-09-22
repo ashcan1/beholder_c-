@@ -18,22 +18,24 @@ public class Exercise66
 
         for (m = 1; m <= num / 2; ++m)
         {
+      
+
             if (num % 2 == 0)
-            {
-                Console.WriteLine(" ok ");
-
-
+            { 
+                Console.WriteLine("* ");
             }
-
+            else
             {
-                for (s = 1; s <= num; s++)
                 {
-                    Console.Write(" ");
-                }
+                    for (s = 1; s <= num; s++)
+                    {
+                        Console.Write(" ");
+                    }
 
-                for (s = 1; s <= m; ++s)
-                {
-                    Console.Write("*");
+                    for (s = 1; s <= m; ++s)
+                    {
+                        Console.Write("*");
+                    }
                 }
             }
 
