@@ -21,10 +21,18 @@ public class Exercise66
             bool isEven = num % 2 == 0;
             int starCount = isEven ? 2 : 1;
             
-            for (int s = 1; s <= num - s; ++s)
-            {
-                Console.Write(" ");
-            }
+            //bool numSpaces = num % 2 == 0;
+            //int numberOfspaces = numSpaces ? 2 : 1;
+            
+            //for (numberOfspaces = 1; numberOfspaces <= num - numberOfspaces; ++numberOfspaces)
+            //{
+               // Console.Write(" ");
+           // }
+           int numberOfSpaces = isEven ? num / 2 : (num / 2) - 1;
+           for (int j = 1; j <= numberOfSpaces; j++)
+           {
+               Console.Write(" ");
+           }
 
 
             for (int j = 1; j <= starCount; j++)
