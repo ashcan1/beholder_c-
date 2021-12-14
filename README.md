@@ -1,9 +1,2 @@
-# C-beholder
-# C-beholder
-# C-beholder
-# C-beholder
-# C-beholder
-# beholder_c-
-# beholder_c-
-# beholder_c-
-# beholder_c-
+Write a program using C# that accepts a number and
+then prints the letter I
